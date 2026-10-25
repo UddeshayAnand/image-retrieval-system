@@ -1,6 +1,5 @@
 """
 Inference Engine for Image Retrieval
-Matches the MLProject (2).ipynb Colab notebook implementation
 - K-Means clustering (K=300)
 - Cluster-based search using Euclidean distance
 - Confidence scores: 1.0 - (distance / max_distance)
