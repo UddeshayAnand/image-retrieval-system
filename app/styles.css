@@ -1,0 +1,65 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Dark Mode Optimization */
+.stApp {
+    background-color: #0e1117;
+    color: #fafafa;
+}
+
+/* Sidebar Styling */
+section[data-testid="stSidebar"] {
+    background-color: #161b22;
+    border-right: 1px solid #30363d;
+}
+
+/* Custom Button Styling */
+div.stButton > button {
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.6rem 1.2rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+div.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(75, 108, 183, 0.4);
+}
+
+/* Image Card Styling */
+.image-card {
+    background-color: #1f242d;
+    border-radius: 12px;
+    padding: 10px;
+    transition: transform 0.2s;
+    border: 1px solid #30363d;
+}
+
+.image-card:hover {
+    transform: scale(1.02);
+    border-color: #4b6cb7;
+}
+
+.image-card img {
+    border-radius: 8px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Headers */
+h1, h2, h3 {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/* Metrics/Stats */
+div[data-testid="stMetricValue"] {
+    color: #4b6cb7;
+}
